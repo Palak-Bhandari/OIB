@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Calculator</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>My Calculator</h2>
+        <div class="calc">
+            <div id="disp"></div>
+            <div class="button">
+                <table>
+                    <tr>
+                        <td><button class="btn-op" id="ac">AC</button></td>
+                        <td><button class="btn-op" id="/">&divide;</button></td>
+                        <td><button class="btn-op" id="*">&times;</button></td>
+                        <td><button class="btn-op" id="del"><i class="material-icons">&#xe14a;</i></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn-no" id="7">7</button></td>
+                        <td><button class="btn-no" id="8">8</button></td>
+                        <td><button class="btn-no" id="9">9</button></td>
+                        <td><button class="btn-no" id="-">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn-no" id="4">4</button></td>
+                        <td><button class="btn-no" id="5">5</button></td>
+                        <td><button class="btn-no" id="6">6</button></td>
+                        <td><button class="btn-op" id="+">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn-no" id="1">1</button></td>
+                        <td><button class="btn-no" id="2">2</button></td>
+                        <td><button class="btn-no" id="3">3</button></td>
+                        <td rowspan="2"><button class="btn-eq" id="eq">=</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn-op" id="(">&#40;</button></td>
+                        <td><button class="btn-no" id="0">0</button></td>
+                        <td><button class="btn-op" id=")">&#41;</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
